@@ -1,0 +1,20 @@
+{
+  "name": "population.js",
+  "version": "0.0.1",
+  "description": "Genetic algorithm and neural network made simple",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "neural",
+    "network",
+    "genetic",
+    "algorithm"
+  ],
+  "author": "911AKA911",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.2.11"
+  }
+}
