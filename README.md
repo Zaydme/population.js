@@ -1,5 +1,10 @@
 # Population.js
-
+[![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Zaydme/population.js/blob/master/LICENSE)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/Zaydme/population.js)
+![David](https://img.shields.io/david/Zaydme/population.js)
+![GitHub stars](https://img.shields.io/github/stars/Zaydme/population.js) 
+![GitHub forks](https://img.shields.io/github/forks/Zaydme/population.js)
+[![MIT](https://img.shields.io/badge/made%20by-Noob-blue.svg)](#ye)
 ## usage:
 make a new population of any object, each object will get a neural network brain.
 ```
