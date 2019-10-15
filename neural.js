@@ -8,7 +8,6 @@ module.exports =  class Neural {
           units: 10,
           activation: "sigmoid",
           inputShape: [inputsCount]}),
-
       ]});
       hiddenLayers.forEach((hiddenLayer) => {
         this.neural.add(tf.layers.dense({units:hiddenLayer}))

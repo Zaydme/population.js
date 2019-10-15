@@ -10,8 +10,6 @@ module.exports = class Population {
     this.beings = new Array(size);
     for (var i = 0; i < this.size; i++) {
     this.beings[i] = new _object(...params)
-    /*let beingPrototype = new Being(this.nShape)
-    Object.assign(this.beings[i], beingPrototype);*/
     this.beings[i].brain = new Neural(neuralShape[0],neuralShape[1],neuralShape[2]);
     this.beings[i].age = 0;
     this.beings[i].score = 0;
