@@ -7,7 +7,7 @@
 [![MIT](https://img.shields.io/badge/made%20by-Noob-blue.svg)](#ye)
 ## usage:
 make a new population of any object, each object will get a neural network brain.
-```
+```js
 const Population = require('population.js')
 let myPopulation = new Population(size, [neural network shape], Class, ...constructors for your class)
 //Neural network shape: "[inputs,[array of hiddent layers],outputs]"
@@ -15,7 +15,7 @@ let myPopulation = new Population(size, [neural network shape], Class, ...constr
 let onlyOne = myPopulation.newBeing(Class,...constructors)
 ```
 
-```
+```js
 population.beings // Array of object, each object is a being
 /*
 being : {
@@ -27,7 +27,7 @@ id: String
 */
 ```
 ## Methods
-```
+```js
 population.think(inputsArray)
 // returns array of thoughts
 // each thought is {id: "id_of_the_being",output: [array of outputs]}
@@ -54,7 +54,7 @@ population.newBeing(CLass,...constructors)
 
 ```
 ## Example:
-```
+```js
 const Population = require('population.js')
 
 class Student {
