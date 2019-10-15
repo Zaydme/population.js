@@ -2,7 +2,8 @@
   "name": "population.js",
   "version": "0.0.1",
   "description": "Genetic algorithm and neural network made simple",
-  "main": "test.js",
+  "main": "population.js",
+  "repository": "github:Zaydme/population.js",
   "scripts": {
     "test": "node test.js"
   },
